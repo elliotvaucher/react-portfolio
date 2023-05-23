@@ -1,18 +1,18 @@
-const logotext = "JOHN";
+const logotext = "Elliot";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Elliot Vaucher",
+    description: "I’m Elliot Vaucher, a passionate problem solver, with a wide range of skills and experience.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Elliot Vaucher",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love creating new products",
+        second: "I code amazing prototypes",
+        third: "I solve all sorts of problems",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I'm a passionate problem solver, with a wide range of skills and experience. I love creating new products, and I'm always looking for challenges and opportunities to learn new things. My interests are at the intersection of arts, technology and business.",
+    your_img_url: "https://images.unsplash.com/photo-1535957998253-26ae1ef29506?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=736&q=80",
 };
 
 const dataabout = {
