@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
-import { Container, Row, Col, Alert, Form } from "react-bootstrap";
-import { contactConfig } from "../../content_option";
+import { Container, Row, Col, Alert } from "react-bootstrap";
+// import { contactConfig } from "../../content_option";
 
 export const MailUs = () => {
   const [formData, setFormdata] = useState({
