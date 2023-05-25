@@ -14,7 +14,7 @@ export const MailUs = () => {
     response: "", // Added field for OpenAI's response
   });
 
-  const API_KEY = "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"; // API Key for Chat-GPT API
+  const API_KEY = process.env.API_KEY; // API Key for Chat-GPT API
 
   const handleSubmit = async (e) => {
     e.preventDefault();
