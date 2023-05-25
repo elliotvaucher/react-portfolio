@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     title: "Short bio",
-    aboutme: "With a Bachelor in Humanities, a Master in Contemporary Arts and a COS in Machine Learning, I have explored tradition as much as modernity. I'm an expert in rhetorics, but I also know how to build things from the ground up. I'm able to discuss with experts in many specialized fields, and I'm always looking for opportunities to learn new things.",
+    aboutme: "With a Bachelor in Humanities, a Master in Contemporary Arts and a COS in Machine Learning, I have explored tradition as much as modernity. I'm an expert in rhetorics, but I also know how to build things from the ground up. I'm able to discuss with experts in many specialized fields, and I'm always looking for opportunities to learn new things while working with a team on new products.",
 };
 const worktimeline = [{
         jobtitle: "Technical project manager",
