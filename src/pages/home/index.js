@@ -55,14 +55,14 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <Link to="/assistant">
+{/*                   <Link to="/assistant">
                     <div id="button_h" className="ac_btn btn">
                       Talk to my AI assistant
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
