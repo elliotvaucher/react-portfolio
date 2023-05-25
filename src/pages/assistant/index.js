@@ -14,7 +14,7 @@ export const MailUs = () => {
     response: "", // Added field for OpenAI's response
   });
 
-  const API_KEY = process.env.API_KEY; // API Key for Chat-GPT API
+  const OPEN_AI_API_KEY = process.env.REACT_APP_API_KEY; // API Key for Chat-GPT API
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -41,7 +41,7 @@ export const MailUs = () => {
       const response = await fetch("https://api.openai.com/v1/chat/completions", {
         method: "POST",
         headers: {
-          Authorization: "Bearer " + API_KEY,
+          Authorization: "Bearer " + OPEN_AI_API_KEY,
           "Content-Type": "application/json",
         },
         body: JSON.stringify(apiRequestBody),
