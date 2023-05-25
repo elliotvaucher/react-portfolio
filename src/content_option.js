@@ -36,7 +36,7 @@ const worktimeline = [{
     },
 ];
 
-const skills = [{
+/* const skills = [{
         name: "Critical Thinking",
         value: 90,
     },
@@ -64,7 +64,7 @@ const skills = [{
         name: "Creativity",
         value: 90,
     },
-];
+]; */
 
 const toolsiuse = {
     title: "Tools",
@@ -173,7 +173,7 @@ export {
     dataabout,
     //dataportfolio,
     worktimeline,
-    skills,
+    //skills,
     services,
     toolsiuse,
     introdata,
