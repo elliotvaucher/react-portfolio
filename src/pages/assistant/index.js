@@ -124,7 +124,7 @@ export const MailUs = () => {
                 ""
               )}
             </address> */}
-            <p>My AI personal assistant will tell you how I can complete your team. Just describe your needs, or the role your looking for, and we will do the rest.</p>
+            <p>My AI personal assistant will tell you how I can complete your team. Just describe your needs, or the role your looking for, and we will do the rest. Of course, it's just for fun. 😉</p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">
