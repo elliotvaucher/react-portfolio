@@ -158,9 +158,9 @@ const contactConfig = {
     description: "Feel free to contact me for any professional inquiries or just to say hi.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_sofqc18",
+    YOUR_TEMPLATE_ID: "template_hnfyyfg",
+    YOUR_USER_ID: "oGUuY38XCG_IWWVba",
 };
 
 const socialprofils = {
