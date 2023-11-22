@@ -47,17 +47,17 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link> */}
-                  <Link to="/contact">
+                  <Link to="/assistant">
                     <div id="button_h" className="ac_btn btn">
-                      Contact Me
+                      Try Me
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <Link to="/assistant">
+                  <Link to="/contact">
                     <div id="button_h" className="ac_btn btn">
-                      Talk to my AI assistant
+                      Contact Us
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>

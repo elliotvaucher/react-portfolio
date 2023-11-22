@@ -94,3 +94,13 @@ code {
 .color_sec {
     color: var(--secondary-color);
 }
+
+.footer {
+    text-align: left;
+    padding: 20px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Other styles as needed */
+}

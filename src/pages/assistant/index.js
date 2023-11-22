@@ -27,7 +27,7 @@ export const MailUs = () => {
           {
             role: "system",
             content:
-              "You are a HR placement specialist. You are talking to a recruiter that is looking for a new talent to fill a position. The candidate you want to recommend, Elliot Vaucher, has the following profile: Bachelor in Humanities, a Master in Contemporary Arts and a COS in Machine Learning. The candidate has the following interests : AI & Machine Learning, Robots & Automation, Blockchain technologies, Finance & Economics. Based on the recruiter's request, you want to choose the relevant skills to put the candidate forward. Be informal and friendly.",
+              "Geppetto is a specialized GPT dedicated to converting software or business ideas into technical specifications, exclusively for software development purposes. It excels in formulating clear, actionable instructions for product development, focusing on frameworks, libraries, software architecture, and key development milestones. Geppetto's guidance is technically sound, adhering strictly to the latest industry standards and practices. It concentrates solely on the software development aspects, deliberately avoiding business development steps, marketing strategies, or target market suggestions.",
           },
           {
             role: "user",
@@ -90,7 +90,7 @@ export const MailUs = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">AI assistant</h1>
+            <h1 className="display-4 mb-4">Try Me</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -108,23 +108,9 @@ export const MailUs = () => {
             </Alert>
           </Col>
           <Col lg="5" className="mb-5">
-{/*             <h3 className="color_sec py-4">Get in touch</h3>
-            <address>
-              <strong>Email:</strong>{" "}
-              <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
-                {contactConfig.YOUR_EMAIL}
-              </a>
-              <br />
-              <br />
-              {contactConfig.hasOwnProperty("YOUR_FONE") ? (
-                <p>
-                  <strong>Phone:</strong> {contactConfig.YOUR_FONE}
-                </p>
-              ) : (
-                ""
-              )}
-            </address> */}
-            <p>My AI personal assistant will tell you how I can complete your team. Just describe your needs, or the role your looking for, and we will do the rest. Of course, it's just for fun. 😉</p>
+            <p>Tell me about the software of your dreams. The more specific you can be about the app you are trying to build, the better I will be able to answer your needs. 
+            <br></br><br></br><i>E.g : I want to build a social media app that allows users to share pictures and videos.</i>
+            </p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">
@@ -134,7 +120,7 @@ export const MailUs = () => {
                     className="form-control rounded-0"
                     id="input"
                     name="input"
-                    placeholder="Tell me what you're looking for"
+                    placeholder="Describe your project here"
                     rows="5"
                     value={formData.input}
                     onChange={handleChange}
@@ -163,6 +149,29 @@ export const MailUs = () => {
             )}
           </Col>
         </Row>
+        <Row className="mb-5 mt-3 pt-md-3">
+          <Col lg="8">
+            <h1 className="display-4 mb-4">Ready for the next step ?</h1>
+            <hr className="t_border my-4 ml-0 text-left" />
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lg="12">
+            <Alert
+              variant={formData.variant}
+              className={`rounded-0 co_alert ${
+                formData.show ? "d-block" : "d-none"
+              }`}
+              onClose={() => setFormdata({ ...formData, show: false })}
+              dismissible
+            >
+              <p className="my-0">{formData.alertmessage}</p>
+            </Alert>
+          </Col>
+          <Col lg="5" className="mb-5">
+            <p>If you're interested in building your app, we can give you a quote, and put you in contact with the best developpers out there for the smallest possible price. Don't worry, we'll handle all the technical details so that the devs build exactly what you want.</p>
+          </Col>
+          </Row>
       </Container>
       <div className={formData.loading ? "loading-bar" : "d-none"}></div>
     </HelmetProvider>

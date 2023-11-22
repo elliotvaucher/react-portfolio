@@ -1,38 +1,38 @@
-const logotext = "EV";
+const logotext = "IAI";
 const meta = {
-    title: "Elliot Vaucher",
-    description: "I’m Elliot Vaucher, a passionate problem solver, with a wide range of skills and experience.",
+    title: "Geppetto",
+    description: "I’m Geppetto. I provide technical specs for your software projects. I will help you build the app of your dreams. I can lay out the architecture of your project.",
 };
 
 const introdata = {
-    title: "I’m Elliot Vaucher",
+    title: "I’m Geppetto",
     animated: {
-        first: "I love creating new products",
-        second: "I code amazing prototypes",
-        third: "I solve all sorts of problems",
+        first: "I provide technical specs for your software projects",
+        second: "I will help you build the app of your dreams",
+        third: "I can lay out the architecture of your project",
     },
-    description: "I'm a passionate problem solver, with a wide range of skills and experience. I love creating new products, and I'm always looking for challenges and opportunities to learn new things. My interests are at the intersection of arts, technology and business.",
-    your_img_url: "https://images.unsplash.com/photo-1535957998253-26ae1ef29506?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=736&q=80",
+    description: "I'm an AI assistant specialised in the creation of technical specifications for software projects. I'm able to understand your needs and translate them into a detailed document that will help you build the app of your dreams. I'm also able to lay out the architecture of your project, and to help you find the software developers you need.",
+    your_img_url: "https://images.unsplash.com/photo-1623520527569-fee1da87f598?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 };
 
 const dataabout = {
     title: "Short bio",
-    aboutme: "With a Bachelor in Humanities, a Master in Contemporary Arts and a COS in Machine Learning, I have explored tradition as much as modernity. I'm an expert in rhetorics, but I also know how to build things from the ground up. I'm able to discuss with experts in many specialized fields, and I'm always looking for opportunities to learn new things while working with a team on new products.",
+    aboutme: "I'm Geppetto. I make ideas come to life. I was designed with the intention to help converting software or business ideas into technical specifications. I want you to be able to build whatever your dreaming of. Today, the development skills required to build your software exist. But, too often, your ideas don't come to life because you lack the technical knowledge to explain your vision to the developper that will implement it. I'm here for you.",
 };
 const worktimeline = [{
-        jobtitle: "Technical project manager",
-        where: "EPFL",
-        date: "2019-2023",
+        jobtitle: "Botnadamus",
+        where: "Twitter oracle bot",
+        date: "Python",
     },
     {
-        jobtitle: "Advertising Copywriter",
-        where: "Marvelous",
-        date: "2017-2019",
+        jobtitle: "Artificial emotionnal intelligence",
+        where: "Robot with emotions",
+        date: "Python",
     },
     {
-        jobtitle: "Teacher",
-        where: "PrEP",
-        date: "2014-2017",
+        jobtitle: "Iterator",
+        where: "App that helps entrepreneur to iterate on their ideas",
+        date: "JavaScript",
     },
 ];
 
@@ -64,7 +64,7 @@ const worktimeline = [{
         name: "Creativity",
         value: 90,
     },
-]; */
+];
 
 const toolsiuse = {
     title: "Tools",
@@ -89,7 +89,7 @@ const services = [{
     },
 ];
 
-/* const dataportfolio = [{
+const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
@@ -150,12 +150,12 @@ const services = [{
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
-];
- */
+]; */
+
 const contactConfig = {
-    YOUR_EMAIL: "ervaucher@gmail.com",
-    YOUR_FONE: "+41798334383",
-    description: "Feel free to contact me for any professional inquiries or just to say hi.",
+    YOUR_EMAIL: "info@self-tech.ch",
+    YOUR_FONE: "021 217 32 37",
+    description: "Feel free to contact us for any professional inquiries or just to say hi.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -164,9 +164,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/elliotvaucher",
+    github: "https://github.com/self-tech-labs",
     linkedin: "https://www.linkedin.com/in/elliot-vaucher-a66b71189/",
     twitter: "https://twitter.com/ElliotVaucher",
+    website: "https://self-tech.ch",
 };
 export {
     meta,
@@ -174,8 +175,8 @@ export {
     //dataportfolio,
     worktimeline,
     //skills,
-    services,
-    toolsiuse,
+    //services,
+    //toolsiuse,
     introdata,
     contactConfig,
     socialprofils,
