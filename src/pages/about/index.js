@@ -6,8 +6,9 @@ import {
   dataabout,
   meta,
   worktimeline,
-  skills,
+  //skills,
   services,
+  toolsiuse,
 } from "../../content_option";
 
 export const About = () => {
@@ -37,7 +38,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Work Timeline</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -56,6 +57,16 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">{toolsiuse.title}</h3>
+          </Col>
+          <Col lg="7" className="d-flex align-items-center">
+            <div>
+              <p>{toolsiuse.abouttools}</p>
+            </div>
+          </Col>
+        </Row>
+{/*         <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
@@ -78,10 +89,10 @@ export const About = () => {
               );
             })}
           </Col>
-        </Row>
+        </Row> */}
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+            <h3 className="color_sec py-4">Interests</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
