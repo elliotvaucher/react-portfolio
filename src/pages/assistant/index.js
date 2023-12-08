@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
+import ReactMarkdown from 'react-markdown';
 // import { contactConfig } from "../../content_option";
 
 export const MailUs = () => {
@@ -27,7 +28,7 @@ export const MailUs = () => {
           {
             role: "system",
             content:
-              "Geppetto is a specialized GPT dedicated to converting software or business ideas into technical specifications, exclusively for software development purposes. It excels in formulating clear, actionable instructions for product development, focusing on frameworks, libraries, software architecture, and key development milestones. Geppetto's guidance is technically sound, adhering strictly to the latest industry standards and practices. It concentrates solely on the software development aspects, deliberately avoiding business development steps, marketing strategies, or target market suggestions.",
+              "You are a specialized GPT dedicated to converting software or business ideas into technical specifications, exclusively for software development purposes. It excels in formulating clear, actionable instructions for product development, focusing on frameworks, libraries, software architecture, and key development milestones. Geppetto's guidance is technically sound, adhering strictly to the latest industry standards and practices. It concentrates solely on the software development aspects, deliberately avoiding business development steps, marketing strategies, or target market suggestions. Never ask for more information, just deliver the specs. Always reply in french.",
           },
           {
             role: "user",
@@ -144,7 +145,7 @@ export const MailUs = () => {
             {formData.response && (
               <div className="response">
                 <h4>Assistant's answer</h4>
-                <p>{formData.response}</p>
+                <ReactMarkdown>{formData.response}</ReactMarkdown>
               </div>
             )}
           </Col>
@@ -156,18 +157,6 @@ export const MailUs = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="12">
-            <Alert
-              variant={formData.variant}
-              className={`rounded-0 co_alert ${
-                formData.show ? "d-block" : "d-none"
-              }`}
-              onClose={() => setFormdata({ ...formData, show: false })}
-              dismissible
-            >
-              <p className="my-0">{formData.alertmessage}</p>
-            </Alert>
-          </Col>
           <Col lg="5" className="mb-5">
             <p>If you're interested in building your app, we can give you a quote, and put you in contact with the best developpers out there for the smallest possible price. Don't worry, we'll handle all the technical details so that the devs build exactly what you want.</p>
           </Col>
