@@ -14,7 +14,7 @@ export const Blog = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">About My Blog</h1>
+            <h1 className="display-4 mb-4">Personal blog</h1>
             <hr className="t_border my-4 ml-0 text-left" />
             <p>If you're interested in diving deeper into my thoughts, projects, and reflections, visit my personal blog:</p>
             <a href="https://elliotvaucher.github.io/blog/" target="_blank" rel="noopener noreferrer">https://elliotvaucher.github.io/blog/</a>
