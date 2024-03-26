@@ -19,19 +19,37 @@ const dataabout = {
     title: "Short bio",
     aboutme: "With a Bachelor in Humanities, a Master in Contemporary Arts and a COS in Machine Learning, I have explored tradition as much as modernity. I'm an expert in rhetorics, but I also know how to build things from the ground up. I'm able to discuss with experts in many specialized fields, and I'm always looking for opportunities to learn new things while working with a team on new products.",
 };
-const worktimeline = [{
+const worktimeline = [
+    {
+        jobtitle: "AI consultant",
+        where: {
+            name: "RITSL",
+            url: "https://ritsl.ch",
+        },
+        date: "2023-present",
+    },
+    {
         jobtitle: "Technical project manager",
-        where: "EPFL",
+        where: {
+            name: "EPFL",
+            url: "https://epfl.ch",
+        },
         date: "2019-2023",
     },
     {
         jobtitle: "Advertising Copywriter",
-        where: "Marvelous",
+        where: {
+            name: "Marvelous",
+            url: "https://marvelous.digital/",
+        },
         date: "2017-2019",
     },
     {
-        jobtitle: "Teacher",
-        where: "PrEP",
+        jobtitle: "Philosophy Teacher",
+        where: {
+            name: "PrEP",
+            url: "https://prep.ch",
+        },
         date: "2014-2017",
     },
 ];

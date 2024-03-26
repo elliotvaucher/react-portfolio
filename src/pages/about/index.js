@@ -43,15 +43,22 @@ export const About = () => {
           <Col lg="7">
             <table className="table caption-top">
               <tbody>
-                {worktimeline.map((data, i) => {
-                  return (
-                    <tr key={i}>
-                      <th scope="row">{data.jobtitle}</th>
-                      <td>{data.where}</td>
-                      <td>{data.date}</td>
-                    </tr>
-                  );
-                })}
+              {
+                  worktimeline.map((data, i) => {
+                    return (
+                      <tr key={i}>
+                        <th scope="row">{data.jobtitle}</th>
+                        <td>
+                          {data.where.url
+                            ? <a href={data.where.url} target="_blank" rel="noopener noreferrer">{data.where.name}</a>
+                            : data.where.name
+                          }
+                        </td>
+                        <td>{data.date}</td>
+                      </tr>
+                    );
+                  })
+                }
               </tbody>
             </table>
           </Col>
