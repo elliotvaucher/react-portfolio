@@ -171,8 +171,8 @@ const services = [{
 ];
  */
 const contactConfig = {
-    YOUR_EMAIL: "ervaucher@gmail.com",
-    YOUR_FONE: "+41798334383",
+    YOUR_EMAIL: "elliot@ritsl.com",
+    YOUR_FONE: "021 217 32 37",
     description: "Feel free to contact me for any professional inquiries or just to say hi.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
